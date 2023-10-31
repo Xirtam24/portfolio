@@ -52,7 +52,7 @@ span {
 
 .arrowbtn-down {
   position: absolute;
-  padding-left: 50vw;
+  padding-left: calc(50vw - 1.5rem);
   padding-bottom: 5vh;
   font-size: 3rem;
   color: rgb(255, 255, 255);
