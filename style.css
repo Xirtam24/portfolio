@@ -60,6 +60,22 @@ span {
   font-weight: lighter;
 }
 
+.arrowbtn-down {
+  position: absolute;
+  padding-left: 50vw;
+  padding-bottom: 5vh;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+}
+
+.arrowbtn-down:hover {
+  color: orangered;
+}
+
+#projects {
+  stroke-opacity: inherit;
+}
+
 /* hero-projects */
 .hero-project {
   display: flex;
