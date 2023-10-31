@@ -50,16 +50,6 @@ span {
   min-height: 100%;
 }
 
-.hero-title {
-  padding-bottom: 30vh;
-}
-
-.light-title {
-  font-family: Inter;
-  color: white;
-  font-weight: lighter;
-}
-
 .arrowbtn-down {
   position: absolute;
   padding-left: 50vw;
@@ -72,8 +62,14 @@ span {
   color: orangered;
 }
 
-#projects {
-  stroke-opacity: inherit;
+.hero-title {
+  padding-bottom: 30vh;
+}
+
+.light-title {
+  font-family: Inter;
+  color: white;
+  font-weight: lighter;
 }
 
 /* hero-projects */
