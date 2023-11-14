@@ -14,7 +14,7 @@
 }
 
 body {
-  background: white;
+  background: whitesmoke;
 }
 
 /* navbar */
@@ -84,6 +84,10 @@ span {
   min-height: 60vh;
 }
 
+.img-overflow {
+  overflow: hidden;
+}
+
 .image-bg {
   position: absolute;
   z-index: -1;
@@ -147,7 +151,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
-  height: auto;
+  min-height: 100%;
 }
 
 /* arrows */
@@ -269,6 +273,11 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  .margin-mobile {
+    margin-bottom: 0.5rem;
+  }
+}
 /* riferimento per i calcoli dei rem, 16px = 1rem */
 html {
   font-size: 16px;
@@ -280,13 +289,6 @@ html {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* .arrowbtn-sx {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 2.5rem;
-    line-height: 5rem;
-    font-size: 3rem;
-  } */
 }
 
 /* Large devices (desktops, 992px and up) */
