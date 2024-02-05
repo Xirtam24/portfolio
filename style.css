@@ -15,6 +15,7 @@
 
 body {
   background: whitesmoke;
+  user-select: none;
 }
 
 /* navbar */
